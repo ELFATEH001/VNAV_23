@@ -1,0 +1,2 @@
+/usr/bin/ar qc librandom_vector.a CMakeFiles/random_vector.dir/random_vector.cpp.o
+/usr/bin/ranlib librandom_vector.a

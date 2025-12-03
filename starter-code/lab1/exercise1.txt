@@ -1,0 +1,3 @@
+a- dante does contain : 19567 lines
+b- dante does contain : 97676 words
+c- dante does contain : 14338 non blank lines

@@ -1,0 +1,4 @@
+/home/aimane/vnav/Lab1/Cpp/Cmkae_test/build/CMakeFiles/mylib.dir
+/home/aimane/vnav/Lab1/Cpp/Cmkae_test/build/CMakeFiles/main.dir
+/home/aimane/vnav/Lab1/Cpp/Cmkae_test/build/CMakeFiles/edit_cache.dir
+/home/aimane/vnav/Lab1/Cpp/Cmkae_test/build/CMakeFiles/rebuild_cache.dir

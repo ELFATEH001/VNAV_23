@@ -1,0 +1,15 @@
+[0.033s] Invoking command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target plots_publisher_node[0m
+[0.170s] [ 50%] Built target frames_publisher_node
+[0.177s] [ 75%] [32mBuilding CXX object CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o[0m
+[3.467s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid PlotsPublisherNode::TrajTrail::update()[m[K’:
+[3.467s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:77:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PlotsPublisherNode::TrajTrail[m[K’ has no member named ‘[01m[Ktf_buffer_[m[K’
+[3.467s]    77 |         if (this->[01;31m[Ktf_buffer_[m[K->canTransform(
+[3.467s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[3.468s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:81:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PlotsPublisherNode::TrajTrail[m[K’ has no member named ‘[01m[Ktf_buffer_[m[K’
+[3.468s]    81 |           transform = this->[01;31m[Ktf_buffer_[m[K->lookupTransform(
+[3.468s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[4.898s] gmake[2]: *** [CMakeFiles/plots_publisher_node.dir/build.make:76: CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o] Error 1
+[4.899s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plots_publisher_node.dir/all] Error 2
+[4.899s] gmake: *** [Makefile:146: all] Error 2
+[4.906s] Invoked command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3

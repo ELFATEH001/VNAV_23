@@ -1,0 +1,4 @@
+Invoking command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3
+Invoked command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3
+Invoking command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg
+Invoked command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg

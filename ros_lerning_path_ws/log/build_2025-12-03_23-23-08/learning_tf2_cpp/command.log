@@ -1,0 +1,2 @@
+Invoking command in '/home/aimane/vnav/ros_lerning_path_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/ros_lerning_path_ws/build/learning_tf2_cpp -- -j3 -l3
+Invoked command in '/home/aimane/vnav/ros_lerning_path_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/ros_lerning_path_ws/build/learning_tf2_cpp -- -j3 -l3

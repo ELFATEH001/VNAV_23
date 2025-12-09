@@ -1,0 +1,24 @@
+[0.072s] Invoking command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target frames_publisher_node[0m
+[0.195s] [ 75%] [32mBuilding CXX object CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o[0m
+[0.195s] [ 75%] Built target frames_publisher_node
+[5.435s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid PlotsPublisherNode::TrajTrail::update()[m[K’:
+[5.436s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:77:13:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPlotsPublisherNode::tf_buffer_[m[K’
+[5.436s]    77 |         if ([01;31m[Ktf_buffer_[m[K->canTransform(
+[5.436s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.436s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:28:36:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.436s]    28 |   std::unique_ptr<tf2_ros::Buffer> [01;36m[Ktf_buffer_[m[K;
+[5.436s]       |                                    [01;36m[K^~~~~~~~~~[m[K
+[5.436s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:79:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.436s]    79 |             tf2::TimePointZero, tf2::durationFromSec(0.1));[01;31m[K)[m[K
+[5.436s]       |                                                            [01;31m[K^[m[K
+[5.436s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:81:23:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPlotsPublisherNode::tf_buffer_[m[K’
+[5.436s]    81 |           transform = [01;31m[Ktf_buffer_[m[K->lookupTransform(
+[5.436s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[5.437s] [01m[K/home/aimane/vnav/vnav_ws/src/two_drones_pkg/src/plots_publisher_node.cpp:28:36:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.437s]    28 |   std::unique_ptr<tf2_ros::Buffer> [01;36m[Ktf_buffer_[m[K;
+[5.437s]       |                                    [01;36m[K^~~~~~~~~~[m[K
+[7.511s] gmake[2]: *** [CMakeFiles/plots_publisher_node.dir/build.make:76: CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o] Error 1
+[7.512s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plots_publisher_node.dir/all] Error 2
+[7.513s] gmake: *** [Makefile:146: all] Error 2
+[7.520s] Invoked command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3

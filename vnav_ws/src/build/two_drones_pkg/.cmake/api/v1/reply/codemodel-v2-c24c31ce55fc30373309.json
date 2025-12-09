@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebc86071c764c2cad88e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "two_drones_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "frames_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frames_publisher_node-8f88d88c684148340f66.json",
+					"name" : "frames_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plots_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plots_publisher_node-0b6f15439c4c9d251847.json",
+					"name" : "plots_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_drones_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_drones_pkg_uninstall-21e617ecf3595ab41f9d.json",
+					"name" : "two_drones_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-00efc54229ef0cc657aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg",
+		"source" : "/home/aimane/vnav/vnav_ws/src/two_drones_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

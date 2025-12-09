@@ -1,0 +1,31 @@
+[0.040s] Invoking command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target frames_publisher_node[0m
+[0.156s] [ 50%] Built target plots_publisher_node
+[0.174s] [ 75%] [32mBuilding CXX object CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o[0m
+[5.746s] [100%] [32m[1mLinking CXX executable frames_publisher_node[0m
+[6.053s] [100%] Built target frames_publisher_node
+[6.074s] Invoked command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg -- -j3 -l3
+[6.092s] Invoking command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg
+[6.106s] -- Install configuration: ""
+[6.106s] -- Execute custom install script
+[6.108s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/lib/two_drones_pkg/frames_publisher_node
+[6.108s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/lib/two_drones_pkg/plots_publisher_node
+[6.108s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/mesh/quadrotor.dae
+[6.109s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/launch/two_drones.launch.yaml
+[6.109s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/config/default.rviz
+[6.109s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/package_run_dependencies/two_drones_pkg
+[6.109s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/parent_prefix_path/two_drones_pkg
+[6.109s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/ament_prefix_path.sh
+[6.109s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/ament_prefix_path.dsv
+[6.110s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/path.sh
+[6.113s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/path.dsv
+[6.113s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.bash
+[6.113s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.sh
+[6.113s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.zsh
+[6.113s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.dsv
+[6.113s] -- Symlinking: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/package.dsv
+[6.130s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/packages/two_drones_pkg
+[6.131s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/cmake/two_drones_pkgConfig.cmake
+[6.131s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/cmake/two_drones_pkgConfig-version.cmake
+[6.131s] -- Up-to-date symlink: /home/aimane/vnav/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/package.xml
+[6.134s] Invoked command in '/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/vnav/vnav_ws/src/build/two_drones_pkg

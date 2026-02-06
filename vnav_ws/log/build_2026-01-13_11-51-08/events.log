@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000269] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.000314] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.000355] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.000395] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.000435] (-) JobUnselected: {'identifier': 'tesse'}
+[0.000474] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.000526] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.000578] (controller_pkg) JobQueued: {'identifier': 'controller_pkg', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs')])}
+[0.001331] (controller_pkg) JobStarted: {'identifier': 'controller_pkg'}
+[0.050278] (controller_pkg) JobProgress: {'identifier': 'controller_pkg', 'progress': 'cmake'}
+[0.051334] (controller_pkg) JobProgress: {'identifier': 'controller_pkg', 'progress': 'build'}
+[0.053100] (controller_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg', '--', '-j8', '-l8'], 'cwd': '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg', 'env': OrderedDict([('HOSTNAME', 'aimane'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/humble_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install:/home/aimane/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/install/two_drones_pkg:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble')]), 'shell': False}
+[0.102578] (-) TimerEvent: {}
+[0.202988] (-) TimerEvent: {}
+[0.218353] (controller_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_node\x1b[0m\n'}
+[0.279002] (controller_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o\x1b[0m\n'}
+[0.303911] (-) TimerEvent: {}
+[0.404577] (-) TimerEvent: {}
+[0.507297] (-) TimerEvent: {}
+[0.611579] (-) TimerEvent: {}
+[0.711953] (-) TimerEvent: {}
+[0.813563] (-) TimerEvent: {}
+[0.913965] (-) TimerEvent: {}
+[1.017571] (-) TimerEvent: {}
+[1.120572] (-) TimerEvent: {}
+[1.221000] (-) TimerEvent: {}
+[1.321419] (-) TimerEvent: {}
+[1.423575] (-) TimerEvent: {}
+[1.524023] (-) TimerEvent: {}
+[1.624573] (-) TimerEvent: {}
+[1.726814] (-) TimerEvent: {}
+[1.827360] (-) TimerEvent: {}
+[1.928399] (-) TimerEvent: {}
+[2.028825] (-) TimerEvent: {}
+[2.129225] (-) TimerEvent: {}
+[2.230574] (-) TimerEvent: {}
+[2.331029] (-) TimerEvent: {}
+[2.433445] (-) TimerEvent: {}
+[2.536927] (-) TimerEvent: {}
+[2.637467] (-) TimerEvent: {}
+[2.738192] (-) TimerEvent: {}
+[2.841629] (-) TimerEvent: {}
+[2.942014] (-) TimerEvent: {}
+[3.042408] (-) TimerEvent: {}
+[3.144566] (-) TimerEvent: {}
+[3.244949] (-) TimerEvent: {}
+[3.345417] (-) TimerEvent: {}
+[3.449307] (-) TimerEvent: {}
+[3.549715] (-) TimerEvent: {}
+[3.652592] (-) TimerEvent: {}
+[3.753050] (-) TimerEvent: {}
+[3.853655] (-) TimerEvent: {}
+[3.954119] (-) TimerEvent: {}
+[4.055566] (-) TimerEvent: {}
+[4.155972] (-) TimerEvent: {}
+[4.256909] (-) TimerEvent: {}
+[4.364577] (-) TimerEvent: {}
+[4.465007] (-) TimerEvent: {}
+[4.565578] (-) TimerEvent: {}
+[4.666092] (-) TimerEvent: {}
+[4.766608] (-) TimerEvent: {}
+[4.867576] (-) TimerEvent: {}
+[4.968585] (-) TimerEvent: {}
+[5.068968] (-) TimerEvent: {}
+[5.170716] (-) TimerEvent: {}
+[5.271082] (-) TimerEvent: {}
+[5.372578] (-) TimerEvent: {}
+[5.473011] (-) TimerEvent: {}
+[5.573674] (-) TimerEvent: {}
+[5.674572] (-) TimerEvent: {}
+[5.774955] (-) TimerEvent: {}
+[5.875728] (-) TimerEvent: {}
+[5.976576] (-) TimerEvent: {}
+[6.076993] (-) TimerEvent: {}
+[6.180575] (-) TimerEvent: {}
+[6.280976] (-) TimerEvent: {}
+[6.382433] (-) TimerEvent: {}
+[6.484976] (-) TimerEvent: {}
+[6.585576] (-) TimerEvent: {}
+[6.686856] (-) TimerEvent: {}
+[6.787248] (-) TimerEvent: {}
+[6.888193] (-) TimerEvent: {}
+[6.988580] (-) TimerEvent: {}
+[7.090825] (-) TimerEvent: {}
+[7.194814] (-) TimerEvent: {}
+[7.295146] (-) TimerEvent: {}
+[7.395570] (-) TimerEvent: {}
+[7.496570] (-) TimerEvent: {}
+[7.597053] (-) TimerEvent: {}
+[7.698537] (-) TimerEvent: {}
+[7.801847] (-) TimerEvent: {}
+[7.902413] (-) TimerEvent: {}
+[8.003573] (-) TimerEvent: {}
+[8.104009] (-) TimerEvent: {}
+[8.206350] (-) TimerEvent: {}
+[8.307483] (-) TimerEvent: {}
+[8.407942] (-) TimerEvent: {}
+[8.508353] (-) TimerEvent: {}
+[8.609579] (-) TimerEvent: {}
+[8.709991] (-) TimerEvent: {}
+[8.810397] (-) TimerEvent: {}
+[8.911980] (-) TimerEvent: {}
+[9.012572] (-) TimerEvent: {}
+[9.113593] (-) TimerEvent: {}
+[9.214071] (-) TimerEvent: {}
+[9.315730] (-) TimerEvent: {}
+[9.418150] (-) TimerEvent: {}
+[9.518944] (-) TimerEvent: {}
+[9.620571] (-) TimerEvent: {}
+[9.720944] (-) TimerEvent: {}
+[9.821443] (-) TimerEvent: {}
+[9.921869] (-) TimerEvent: {}
+[10.023215] (-) TimerEvent: {}
+[10.102267] (controller_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::controlLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.102673] (controller_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:360:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector4d rotor_speeds_squared\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.102900] (controller_pkg) StderrLine: {'line': b'  360 |     Eigen::Vector4d \x1b[01;31m\x1b[Krotor_speeds_squared\x1b[m\x1b[K = F2W.inverse() * wrench;\n'}
+[10.103100] (controller_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.103537] (controller_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:350:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Vector4d rotor_speeds_squared\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[10.103789] (controller_pkg) StderrLine: {'line': b'  350 |     Eigen::Vector4d \x1b[01;36m\x1b[Krotor_speeds_squared\x1b[m\x1b[K;\n'}
+[10.104022] (controller_pkg) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.126601] (-) TimerEvent: {}
+[10.155699] (controller_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:349:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle45\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.156011] (controller_pkg) StderrLine: {'line': b'  349 |     double \x1b[01;35m\x1b[Kangle45\x1b[m\x1b[K = PI / 4.0;\n'}
+[10.156181] (controller_pkg) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.226727] (-) TimerEvent: {}
+[10.327748] (-) TimerEvent: {}
+[10.428242] (-) TimerEvent: {}
+[10.530088] (-) TimerEvent: {}
+[10.632233] (-) TimerEvent: {}
+[10.732697] (-) TimerEvent: {}
+[10.833085] (-) TimerEvent: {}
+[10.933459] (-) TimerEvent: {}
+[11.034573] (-) TimerEvent: {}
+[11.134988] (-) TimerEvent: {}
+[11.235393] (-) TimerEvent: {}
+[11.337101] (-) TimerEvent: {}
+[11.437639] (-) TimerEvent: {}
+[11.538532] (-) TimerEvent: {}
+[11.640777] (-) TimerEvent: {}
+[11.741876] (-) TimerEvent: {}
+[11.855595] (-) TimerEvent: {}
+[11.957960] (-) TimerEvent: {}
+[12.058573] (-) TimerEvent: {}
+[12.162693] (-) TimerEvent: {}
+[12.263176] (-) TimerEvent: {}
+[12.365039] (-) TimerEvent: {}
+[12.465445] (-) TimerEvent: {}
+[12.567160] (-) TimerEvent: {}
+[12.668784] (-) TimerEvent: {}
+[12.769168] (-) TimerEvent: {}
+[12.869618] (-) TimerEvent: {}
+[12.972784] (-) TimerEvent: {}
+[13.073171] (-) TimerEvent: {}
+[13.173582] (-) TimerEvent: {}
+[13.274907] (-) TimerEvent: {}
+[13.375294] (-) TimerEvent: {}
+[13.475757] (-) TimerEvent: {}
+[13.579010] (-) TimerEvent: {}
+[13.680874] (-) TimerEvent: {}
+[13.781283] (-) TimerEvent: {}
+[13.881828] (-) TimerEvent: {}
+[13.982487] (-) TimerEvent: {}
+[14.084010] (-) TimerEvent: {}
+[14.184402] (-) TimerEvent: {}
+[14.286181] (-) TimerEvent: {}
+[14.388524] (-) TimerEvent: {}
+[14.488942] (-) TimerEvent: {}
+[14.592572] (-) TimerEvent: {}
+[14.693038] (-) TimerEvent: {}
+[14.794610] (-) TimerEvent: {}
+[14.894998] (-) TimerEvent: {}
+[14.995378] (-) TimerEvent: {}
+[15.097436] (-) TimerEvent: {}
+[15.197879] (-) TimerEvent: {}
+[15.298693] (-) TimerEvent: {}
+[15.399459] (-) TimerEvent: {}
+[15.499994] (-) TimerEvent: {}
+[15.600650] (-) TimerEvent: {}
+[15.705400] (-) TimerEvent: {}
+[15.806569] (-) TimerEvent: {}
+[15.907571] (-) TimerEvent: {}
+[16.008002] (-) TimerEvent: {}
+[16.111311] (-) TimerEvent: {}
+[16.211772] (-) TimerEvent: {}
+[16.312171] (-) TimerEvent: {}
+[16.413080] (-) TimerEvent: {}
+[16.513453] (-) TimerEvent: {}
+[16.613910] (-) TimerEvent: {}
+[16.714959] (-) TimerEvent: {}
+[16.815346] (-) TimerEvent: {}
+[16.916576] (-) TimerEvent: {}
+[17.016975] (-) TimerEvent: {}
+[17.117356] (-) TimerEvent: {}
+[17.218239] (-) TimerEvent: {}
+[17.318578] (-) TimerEvent: {}
+[17.419565] (-) TimerEvent: {}
+[17.520252] (-) TimerEvent: {}
+[17.620974] (-) TimerEvent: {}
+[17.721444] (-) TimerEvent: {}
+[17.822221] (-) TimerEvent: {}
+[17.923565] (-) TimerEvent: {}
+[18.023979] (-) TimerEvent: {}
+[18.129576] (-) TimerEvent: {}
+[18.233603] (-) TimerEvent: {}
+[18.334082] (-) TimerEvent: {}
+[18.435577] (-) TimerEvent: {}
+[18.535962] (-) TimerEvent: {}
+[18.638635] (-) TimerEvent: {}
+[18.739079] (-) TimerEvent: {}
+[18.839600] (-) TimerEvent: {}
+[18.939995] (-) TimerEvent: {}
+[19.041586] (-) TimerEvent: {}
+[19.141977] (-) TimerEvent: {}
+[19.245055] (-) TimerEvent: {}
+[19.346140] (-) TimerEvent: {}
+[19.446615] (-) TimerEvent: {}
+[19.549565] (-) TimerEvent: {}
+[19.650033] (-) TimerEvent: {}
+[19.750452] (-) TimerEvent: {}
+[19.850917] (-) TimerEvent: {}
+[19.951346] (-) TimerEvent: {}
+[20.052569] (-) TimerEvent: {}
+[20.152949] (-) TimerEvent: {}
+[20.253468] (-) TimerEvent: {}
+[20.353994] (-) TimerEvent: {}
+[20.455861] (-) TimerEvent: {}
+[20.556395] (-) TimerEvent: {}
+[20.659517] (-) TimerEvent: {}
+[20.760226] (-) TimerEvent: {}
+[20.861390] (-) TimerEvent: {}
+[20.963573] (-) TimerEvent: {}
+[21.064039] (-) TimerEvent: {}
+[21.164516] (-) TimerEvent: {}
+[21.265942] (-) TimerEvent: {}
+[21.366376] (-) TimerEvent: {}
+[21.467727] (-) TimerEvent: {}
+[21.569584] (-) TimerEvent: {}
+[21.669970] (-) TimerEvent: {}
+[21.772606] (-) TimerEvent: {}
+[21.874425] (-) TimerEvent: {}
+[21.975580] (-) TimerEvent: {}
+[22.076091] (-) TimerEvent: {}
+[22.176422] (-) TimerEvent: {}
+[22.278398] (-) TimerEvent: {}
+[22.380190] (-) TimerEvent: {}
+[22.490103] (-) TimerEvent: {}
+[22.592685] (-) TimerEvent: {}
+[22.695252] (-) TimerEvent: {}
+[22.795678] (-) TimerEvent: {}
+[22.896077] (-) TimerEvent: {}
+[22.996472] (-) TimerEvent: {}
+[23.097570] (-) TimerEvent: {}
+[23.197952] (-) TimerEvent: {}
+[23.302563] (-) TimerEvent: {}
+[23.402942] (-) TimerEvent: {}
+[23.507251] (-) TimerEvent: {}
+[23.612570] (-) TimerEvent: {}
+[23.712987] (-) TimerEvent: {}
+[23.813573] (-) TimerEvent: {}
+[23.921703] (-) TimerEvent: {}
+[24.023567] (-) TimerEvent: {}
+[24.125743] (-) TimerEvent: {}
+[24.227989] (-) TimerEvent: {}
+[24.328368] (-) TimerEvent: {}
+[24.429577] (-) TimerEvent: {}
+[24.472541] (controller_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller_node.cpp.o] Error 1\n'}
+[24.472966] (controller_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/controller_node.dir/all] Error 2\n'}
+[24.473351] (controller_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.487603] (controller_pkg) CommandEnded: {'returncode': 2}
+[24.541239] (-) TimerEvent: {}
+[24.544041] (controller_pkg) JobEnded: {'identifier': 'controller_pkg', 'rc': 2}
+[24.546912] (-) EventReactorShutdown: {}

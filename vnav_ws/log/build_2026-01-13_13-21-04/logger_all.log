@@ -1,0 +1,260 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'controller_pkg']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['controller_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76b9ceba8910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76b9ced29780>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76b9ced29780>>, mixin_verb=('build',))
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'ros'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extensions ['cmake', 'python']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'cmake'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'python'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extensions ['python_setup_py']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3) by extension 'python_setup_py'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/controller_pkg) by extension 'ros'
+[0.530s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lab3/controller_pkg' with type 'ros.ament_cmake' and name 'controller_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'python'
+[0.531s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/Lab3/tesse-interface' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse-interface) by extension 'python_setup_py'
+[0.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lab3/tesse-interface' with type 'python' and name 'tesse'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_msgs) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lab3/tesse_msgs' with type 'ros.ament_cmake' and name 'tesse_msgs'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lab3/tesse_ros_bridge) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lab3/tesse_ros_bridge' with type 'ros.ament_python' and name 'tesse_ros_bridge'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'ros'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['cmake', 'python']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'cmake'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'python'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extensions ['python_setup_py']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm) by extension 'python_setup_py'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_comm) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_comm' with type 'ros.ament_cmake' and name 'mav_comm'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_msgs) by extension 'ros'
+[0.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_msgs' with type 'ros.ament_cmake' and name 'mav_msgs'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_planning_msgs) by extension 'ros'
+[0.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_planning_msgs' with type 'ros.ament_cmake' and name 'mav_planning_msgs'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_state_machine_msgs) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_state_machine_msgs' with type 'ros.ament_cmake' and name 'mav_state_machine_msgs'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extensions ['ros']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/mav_comm/mav_system_msgs) by extension 'ros'
+[0.968s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mav_comm/mav_system_msgs' with type 'ros.ament_cmake' and name 'mav_system_msgs'
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_msgs' in 'src/mav_comm/mav_msgs'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_state_machine_msgs' in 'src/mav_comm/mav_state_machine_msgs'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_system_msgs' in 'src/mav_comm/mav_system_msgs'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tesse' in 'src/Lab3/tesse-interface'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tesse_msgs' in 'src/Lab3/tesse_msgs'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tesse_ros_bridge' in 'src/Lab3/tesse_ros_bridge'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_planning_msgs' in 'src/mav_comm/mav_planning_msgs'
+[1.006s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mav_comm' in 'src/mav_comm/mav_comm'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_target' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.007s] DEBUG:colcon.colcon_core.verb:Building package 'controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg', 'merge_install': False, 'path': '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.007s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.009s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg' with build type 'ament_cmake'
+[1.009s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg'
+[1.015s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg': CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg -- -j8 -l8
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg' returned '0': CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg -- -j8 -l8
+[1.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg': CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg
+[1.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_pkg)
+[1.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg' returned '0': CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg' for CMake module files
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg' for CMake config files
+[1.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_pkg', 'cmake_prefix_path')
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/hook/cmake_prefix_path.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/hook/cmake_prefix_path.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/hook/cmake_prefix_path.sh'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib'
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/bin'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/pkgconfig/controller_pkg.pc'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/python3.10/site-packages'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/bin'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.ps1'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.bash'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.zsh'
+[1.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/colcon-core/packages/controller_pkg)
+[1.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_pkg)
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg' for CMake module files
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg' for CMake config files
+[1.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_pkg', 'cmake_prefix_path')
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/hook/cmake_prefix_path.ps1'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/hook/cmake_prefix_path.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/hook/cmake_prefix_path.sh'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/bin'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/pkgconfig/controller_pkg.pc'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/python3.10/site-packages'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/bin'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.bash'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.zsh'
+[1.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/colcon-core/packages/controller_pkg)
+[1.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.305s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.321s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.325s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.326s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/local_setup.ps1'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/_local_setup_util_ps1.py'
+[1.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/setup.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/local_setup.sh'
+[1.335s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/_local_setup_util_sh.py'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/setup.sh'
+[1.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/local_setup.bash'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/setup.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/local_setup.zsh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/setup.zsh'

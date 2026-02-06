@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target controller_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::controlLoop()[m[K’:
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:360:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector4d rotor_speeds_squared[m[K’
+  360 |     Eigen::Vector4d [01;31m[Krotor_speeds_squared[m[K = F2W.inverse() * wrench;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:350:21:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector4d rotor_speeds_squared[m[K’ previously declared here
+  350 |     Eigen::Vector4d [01;36m[Krotor_speeds_squared[m[K;
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

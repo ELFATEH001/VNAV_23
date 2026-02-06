@@ -1,0 +1,19 @@
+[2.546s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse-interface': PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tesse build --build-base /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/build install --record /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/install.log --single-version-externally-managed
+[3.746s] running egg_info
+[3.746s] writing ../../../build/tesse/tesse.egg-info/PKG-INFO
+[3.746s] writing dependency_links to ../../../build/tesse/tesse.egg-info/dependency_links.txt
+[3.747s] writing requirements to ../../../build/tesse/tesse.egg-info/requires.txt
+[3.747s] writing top-level names to ../../../build/tesse/tesse.egg-info/top_level.txt
+[3.747s] reading manifest file '../../../build/tesse/tesse.egg-info/SOURCES.txt'
+[3.749s] adding license file 'LICENSE'
+[3.752s] writing manifest file '../../../build/tesse/tesse.egg-info/SOURCES.txt'
+[3.752s] running build
+[3.753s] running build_py
+[3.760s] running install
+[3.762s] running install_lib
+[3.774s] running install_egg_info
+[3.788s] removing '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages/tesse-0.1.2-py3.10.egg-info' (and everything under it)
+[3.788s] Copying ../../../build/tesse/tesse.egg-info to /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages/tesse-0.1.2-py3.10.egg-info
+[3.793s] running install_scripts
+[3.921s] writing list of installed files to '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/install.log'
+[4.001s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse-interface' returned '0': PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tesse build --build-base /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/build install --record /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse/install.log --single-version-externally-managed

@@ -1,0 +1,90 @@
+[0.012s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg': AMENT_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg -DCMAKE_INSTALL_PREFIX=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.550s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.672s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.729s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.736s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.748s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.853s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.995s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.050s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.061s] -- Looking for pthread.h
+[1.146s] -- Looking for pthread.h - found
+[1.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.236s] -- Found Threads: TRUE  
+[1.314s] -- Found mav_msgs: 3.3.3 (/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/share/mav_msgs/cmake)
+[1.381s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.406s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.423s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.425s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.425s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.563s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.573s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.675s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.675s] -- Configured cppcheck include dirs: 
+[1.675s] -- Configured cppcheck exclude dirs and/or files: 
+[1.676s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.676s] -- Added test 'lint_cmake' to check CMake code style
+[1.677s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.679s] -- Added test 'uncrustify' to check C / C++ code style
+[1.680s] -- Configured uncrustify additional arguments: 
+[1.681s] -- Added test 'xmllint' to check XML markup files
+[1.683s] -- Configuring done
+[1.708s] -- Generating done
+[1.716s] -- Build files have been written to: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg
+[1.728s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg -DCMAKE_INSTALL_PREFIX=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg
+[1.729s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg': AMENT_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg -- -j8 -l8
+[1.795s] [ 50%] [32mBuilding CXX object CMakeFiles/traj_publisher.dir/src/traj_publisher.cpp.o[0m
+[1.795s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[9.109s] [01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::controlLoop()[m[K’:
+[9.109s] [01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:313:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.109s]   313 |     double [01;35m[Kf[m[K;
+[9.110s]       |            [01;35m[K^[m[K
+[11.980s] [ 75%] [32m[1mLinking CXX executable traj_publisher[0m
+[12.789s] [ 75%] Built target traj_publisher
+[27.380s] [100%] [32m[1mLinking CXX executable controller_node[0m
+[28.087s] [100%] Built target controller_node
+[28.100s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg -- -j8 -l8
+[28.101s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg': AMENT_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg
+[28.109s] -- Install configuration: ""
+[28.109s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/controller_node
+[28.114s] -- Set runtime path of "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/controller_node" to ""
+[28.114s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/traj_publisher
+[28.116s] -- Set runtime path of "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/traj_publisher" to ""
+[28.116s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/launch
+[28.116s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/launch/traj_tracking.launch.py
+[28.116s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/config
+[28.116s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/config/params.yaml
+[28.117s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/ament_index/resource_index/package_run_dependencies/controller_pkg
+[28.117s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/ament_index/resource_index/parent_prefix_path/controller_pkg
+[28.117s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/ament_prefix_path.sh
+[28.117s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/ament_prefix_path.dsv
+[28.117s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/path.sh
+[28.118s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/path.dsv
+[28.118s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.bash
+[28.118s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.sh
+[28.118s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.zsh
+[28.118s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.dsv
+[28.118s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.dsv
+[28.119s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/ament_index/resource_index/packages/controller_pkg
+[28.119s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/cmake/controller_pkgConfig.cmake
+[28.119s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/cmake/controller_pkgConfig-version.cmake
+[28.119s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.xml
+[28.122s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg

@@ -1,0 +1,121 @@
+[0.033s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs -- -j8 -l8
+[0.445s] [  3%] Built target mav_system_msgs__cpp
+[0.445s] [ 17%] Built target mav_system_msgs__rosidl_generator_c
+[0.445s] [ 31%] Built target mav_system_msgs__rosidl_typesupport_cpp
+[0.445s] [ 44%] Built target mav_system_msgs__rosidl_typesupport_introspection_cpp
+[0.445s] [ 58%] Built target mav_system_msgs__rosidl_typesupport_fastrtps_cpp
+[0.445s] [ 72%] Built target mav_system_msgs__rosidl_typesupport_introspection_c
+[0.445s] [ 86%] Built target mav_system_msgs__rosidl_typesupport_c
+[0.445s] [100%] Built target mav_system_msgs__rosidl_typesupport_fastrtps_c
+[0.446s] [100%] Built target mav_system_msgs
+[0.758s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs -- -j8 -l8
+[0.768s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs
+[0.784s] -- Install configuration: ""
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_system_msgs
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/process_info.h
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__functions.h
+[0.784s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__functions.c
+[0.785s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__functions.c
+[0.785s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__struct.h
+[0.785s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.h
+[0.785s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__struct.h
+[0.785s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.h
+[0.785s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__functions.h
+[0.786s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/cpu_info.h
+[0.786s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.786s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/environment/library_path.sh
+[0.786s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/environment/library_path.dsv
+[0.786s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_generator_c.so
+[0.787s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[0.787s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[0.787s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[0.787s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_fastrtps_c.h
+[0.788s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_fastrtps_c.h
+[0.788s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.790s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_fastrtps_c.so
+[0.791s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[0.792s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[0.792s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/process_info.hpp
+[0.792s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[0.792s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__traits.hpp
+[0.792s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__traits.hpp
+[0.793s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__builder.hpp
+[0.793s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__struct.hpp
+[0.794s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__builder.hpp
+[0.794s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.hpp
+[0.794s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.hpp
+[0.794s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__struct.hpp
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/cpu_info.hpp
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/dds_fastrtps
+[0.795s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.796s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.796s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.796s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.797s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[0.797s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[0.797s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.797s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[0.798s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.c
+[0.798s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_introspection_c.h
+[0.798s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.c
+[0.798s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_introspection_c.h
+[0.798s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_introspection_c.so
+[0.799s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_c.so
+[0.799s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs
+[0.799s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg
+[0.799s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail
+[0.806s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__rosidl_typesupport_introspection_cpp.hpp
+[0.807s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__rosidl_typesupport_introspection_cpp.hpp
+[0.808s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/process_info__type_support.cpp
+[0.808s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/include/mav_system_msgs/mav_system_msgs/msg/detail/cpu_info__type_support.cpp
+[0.808s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_introspection_cpp.so
+[0.809s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib/libmav_system_msgs__rosidl_typesupport_cpp.so
+[0.810s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/msg/CpuInfo.idl
+[0.810s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/msg/ProcessInfo.idl
+[0.811s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/msg/CpuInfo.msg
+[0.812s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/msg/ProcessInfo.msg
+[0.813s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/ament_index/resource_index/package_run_dependencies/mav_system_msgs
+[0.814s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/ament_index/resource_index/parent_prefix_path/mav_system_msgs
+[0.814s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/environment/ament_prefix_path.sh
+[0.814s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/environment/ament_prefix_path.dsv
+[0.814s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/environment/path.sh
+[0.814s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/environment/path.dsv
+[0.815s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/local_setup.bash
+[0.815s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/local_setup.sh
+[0.815s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/local_setup.zsh
+[0.815s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/local_setup.dsv
+[0.815s] -- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/package.dsv
+[0.820s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/ament_index/resource_index/packages/mav_system_msgs
+[0.821s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_generator_cExport.cmake
+[0.821s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.821s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.821s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.821s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_generator_cppExport.cmake
+[0.824s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.824s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/export_mav_system_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.824s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.824s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.825s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cExport.cmake
+[0.825s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.826s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.828s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.829s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cppExport.cmake
+[0.829s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/rosidl_cmake-extras.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.830s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.841s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgsConfig.cmake
+[0.841s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/cmake/mav_system_msgsConfig-version.cmake
+[0.841s] -- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/share/mav_system_msgs/package.xml
+[0.848s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_system_msgs

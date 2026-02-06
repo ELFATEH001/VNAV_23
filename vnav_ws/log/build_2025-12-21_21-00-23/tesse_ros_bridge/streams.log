@@ -1,0 +1,23 @@
+[1.444s] Invoking command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse_ros_bridge': PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tesse_ros_bridge build --build-base /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/build install --record /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/install.log --single-version-externally-managed install_data
+[1.729s] running egg_info
+[1.730s] writing ../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/PKG-INFO
+[1.730s] writing dependency_links to ../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/dependency_links.txt
+[1.731s] writing entry points to ../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/entry_points.txt
+[1.731s] writing requirements to ../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/requires.txt
+[1.731s] writing top-level names to ../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/top_level.txt
+[1.734s] reading manifest file '../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/SOURCES.txt'
+[1.735s] writing manifest file '../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info/SOURCES.txt'
+[1.735s] running build
+[1.735s] running build_py
+[1.736s] running install
+[1.737s] running install_lib
+[1.739s] running install_data
+[1.739s] running install_egg_info
+[1.741s] removing '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[1.742s] Copying ../../../build/tesse_ros_bridge/tesse_ros_bridge.egg-info to /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages/tesse_ros_bridge-0.0.0-py3.10.egg-info
+[1.743s] running install_scripts
+[1.767s] Installing key_teleop script to /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/tesse_ros_bridge
+[1.768s] Installing quadrotor_control_interface script to /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/tesse_ros_bridge
+[1.768s] Installing tesse_ros_node script to /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/tesse_ros_bridge
+[1.768s] writing list of installed files to '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/install.log'
+[1.801s] Invoked command in '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse_ros_bridge' returned '0': PYTHONPATH=/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tesse_ros_bridge build --build-base /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/build install --record /home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/tesse_ros_bridge/install.log --single-version-externally-managed install_data

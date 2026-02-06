@@ -1,0 +1,24 @@
+controller_node:
+  ros__parameters:
+    kx: 4.0 
+    kv: 1.68 
+    kr: 4.15 
+    komega: 0.95 
+
+    # kx: 4.2 
+    # kv: 2.1 
+    # kr: 4.2 
+    # komega: 0.95 
+    #~/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg$
+
+    # kx: 5.0 #8.0 #12.0 #7.1 #4.8 # 7.8 # 5.18 #0.35 #0.245
+    # kv: 3.5 #6.0#7.0 #4.0 #5.05 # 3.6 #1.99 #3.58 # 2.2 #3.8 #6.1 #0.478  #0.474 #0.332
+    # kr: 5.5 #5.0  #11.0 #3.9  #9.1 # 6.8 #7.82 #8.5 # 0.45   # 0.40  # 0.51     # 0.385  # orientation of the magenta arrow forward/backward
+    # komega: 1.45 #1.4 #2.0 #1.9 #0.9 # 1.45 #1.52 #2.15 # 0.148 # a sord of the orienation of the magenta arrow, big values make the drone be late
+    # #~/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg$
+
+    # ros__parameters:
+    # kx: 16.0 #12.0 #7.1 #4.8 # 7.8 # 5.18 #0.35 #0.245
+    # kv: 7.0 #4.0 #5.05 # 3.6 #1.99 #3.58 # 2.2 #3.8 #6.1 #0.478  #0.474 #0.332
+    # kr: 2.3 #3.9  #9.1 # 6.8 #7.82 #8.5 # 0.45   # 0.40  # 0.51     # 0.385  # orientation of the magenta arrow forward/backward
+    # komega: 0.7 #1.9 #0.9 # 1.45 #1.52 #2.15 # 0.148 # a sord of the orienation of the magenta arrow, big values make the drone be late

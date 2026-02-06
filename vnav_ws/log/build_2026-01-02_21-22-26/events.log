@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.007094] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.007213] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.007270] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.007319] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.007365] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.007411] (-) JobUnselected: {'identifier': 'tesse'}
+[0.007455] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.007498] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.007547] (controller_pkg) JobQueued: {'identifier': 'controller_pkg', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs')])}
+[0.007608] (controller_pkg) JobStarted: {'identifier': 'controller_pkg'}
+[0.048737] (controller_pkg) JobEnded: {'identifier': 'controller_pkg', 'rc': 0}
+[0.054400] (-) EventReactorShutdown: {}

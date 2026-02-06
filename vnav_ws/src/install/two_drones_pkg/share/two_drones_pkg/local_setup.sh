@@ -1,1 +1,0 @@
-/home/aimane/vnav/vnav_ws/src/build/two_drones_pkg/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000298] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.000346] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.000389] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.000431] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.000472] (-) JobUnselected: {'identifier': 'tesse'}
+[0.000513] (-) JobUnselected: {'identifier': 'tesse_msgs'}
+[0.000553] (-) JobUnselected: {'identifier': 'tesse_ros_bridge'}
+[0.000597] (controller_pkg) JobQueued: {'identifier': 'controller_pkg', 'dependencies': OrderedDict([('mav_msgs', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs')])}
+[0.000655] (controller_pkg) JobStarted: {'identifier': 'controller_pkg'}
+[0.036960] (controller_pkg) JobProgress: {'identifier': 'controller_pkg', 'progress': 'cmake'}
+[0.037055] (controller_pkg) JobProgress: {'identifier': 'controller_pkg', 'progress': 'build'}
+[0.038782] (controller_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg', '--', '-j8', '-l8'], 'cwd': '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg', 'env': OrderedDict([('HOSTNAME', 'aimane'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/humble_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install:/home/aimane/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/install/two_drones_pkg:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble')]), 'shell': False}
+[0.098698] (-) TimerEvent: {}
+[0.199111] (-) TimerEvent: {}
+[0.218812] (controller_pkg) StdoutLine: {'line': b'[ 50%] Built target controller_node\n'}
+[0.299230] (-) TimerEvent: {}
+[0.307625] (controller_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/traj_publisher.dir/src/traj_publisher.cpp.o\x1b[0m\n'}
+[0.399355] (-) TimerEvent: {}
+[0.499833] (-) TimerEvent: {}
+[0.600841] (-) TimerEvent: {}
+[0.703838] (-) TimerEvent: {}
+[0.804303] (-) TimerEvent: {}
+[0.904724] (-) TimerEvent: {}
+[1.005437] (-) TimerEvent: {}
+[1.107243] (-) TimerEvent: {}
+[1.207593] (-) TimerEvent: {}
+[1.313827] (-) TimerEvent: {}
+[1.414296] (-) TimerEvent: {}
+[1.514671] (-) TimerEvent: {}
+[1.615156] (-) TimerEvent: {}
+[1.715849] (-) TimerEvent: {}
+[1.816261] (-) TimerEvent: {}
+[1.916628] (-) TimerEvent: {}
+[2.017059] (-) TimerEvent: {}
+[2.117829] (-) TimerEvent: {}
+[2.218222] (-) TimerEvent: {}
+[2.321022] (-) TimerEvent: {}
+[2.423831] (-) TimerEvent: {}
+[2.524265] (-) TimerEvent: {}
+[2.625361] (-) TimerEvent: {}
+[2.725809] (-) TimerEvent: {}
+[2.826186] (-) TimerEvent: {}
+[2.926667] (-) TimerEvent: {}
+[3.028073] (-) TimerEvent: {}
+[3.130435] (-) TimerEvent: {}
+[3.232826] (-) TimerEvent: {}
+[3.333216] (-) TimerEvent: {}
+[3.433625] (-) TimerEvent: {}
+[3.534266] (-) TimerEvent: {}
+[3.634860] (-) TimerEvent: {}
+[3.735386] (-) TimerEvent: {}
+[3.836745] (-) TimerEvent: {}
+[3.937140] (-) TimerEvent: {}
+[4.037827] (-) TimerEvent: {}
+[4.140949] (-) TimerEvent: {}
+[4.241341] (-) TimerEvent: {}
+[4.342037] (-) TimerEvent: {}
+[4.442469] (-) TimerEvent: {}
+[4.542908] (-) TimerEvent: {}
+[4.643861] (-) TimerEvent: {}
+[4.744832] (-) TimerEvent: {}
+[4.845840] (-) TimerEvent: {}
+[4.946272] (-) TimerEvent: {}
+[5.046951] (-) TimerEvent: {}
+[5.149724] (-) TimerEvent: {}
+[5.250200] (-) TimerEvent: {}
+[5.350594] (-) TimerEvent: {}
+[5.453019] (-) TimerEvent: {}
+[5.553397] (-) TimerEvent: {}
+[5.656836] (-) TimerEvent: {}
+[5.757285] (-) TimerEvent: {}
+[5.857688] (-) TimerEvent: {}
+[5.958131] (-) TimerEvent: {}
+[6.058707] (-) TimerEvent: {}
+[6.159114] (-) TimerEvent: {}
+[6.259839] (-) TimerEvent: {}
+[6.360828] (-) TimerEvent: {}
+[6.461224] (-) TimerEvent: {}
+[6.566826] (-) TimerEvent: {}
+[6.667244] (-) TimerEvent: {}
+[6.726984] (controller_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/traj_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTrajPublisherNode::TrajPublisherNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.727346] (controller_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/traj_publisher.cpp:37:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[6.727524] (controller_pkg) StderrLine: {'line': b'   37 |             double \x1b[01;35m\x1b[Kt\x1b[m\x1b[K = (clock->now() - start).seconds();\n'}
+[6.727683] (controller_pkg) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.767956] (-) TimerEvent: {}
+[6.868377] (-) TimerEvent: {}
+[6.970981] (-) TimerEvent: {}
+[7.071453] (-) TimerEvent: {}
+[7.171797] (-) TimerEvent: {}
+[7.272149] (-) TimerEvent: {}
+[7.375838] (-) TimerEvent: {}
+[7.476314] (-) TimerEvent: {}
+[7.577028] (-) TimerEvent: {}
+[7.678973] (-) TimerEvent: {}
+[7.779485] (-) TimerEvent: {}
+[7.880194] (-) TimerEvent: {}
+[7.980864] (-) TimerEvent: {}
+[8.081371] (-) TimerEvent: {}
+[8.181804] (-) TimerEvent: {}
+[8.282169] (-) TimerEvent: {}
+[8.383035] (-) TimerEvent: {}
+[8.483420] (-) TimerEvent: {}
+[8.585830] (-) TimerEvent: {}
+[8.688132] (-) TimerEvent: {}
+[8.790949] (-) TimerEvent: {}
+[8.891405] (-) TimerEvent: {}
+[8.991874] (-) TimerEvent: {}
+[9.092377] (-) TimerEvent: {}
+[9.193563] (-) TimerEvent: {}
+[9.295836] (-) TimerEvent: {}
+[9.396259] (-) TimerEvent: {}
+[9.498322] (-) TimerEvent: {}
+[9.602828] (-) TimerEvent: {}
+[9.703209] (-) TimerEvent: {}
+[9.803608] (-) TimerEvent: {}
+[9.904040] (-) TimerEvent: {}
+[10.006594] (-) TimerEvent: {}
+[10.107077] (-) TimerEvent: {}
+[10.207670] (-) TimerEvent: {}
+[10.311826] (-) TimerEvent: {}
+[10.412241] (-) TimerEvent: {}
+[10.512715] (-) TimerEvent: {}
+[10.613245] (-) TimerEvent: {}
+[10.713622] (-) TimerEvent: {}
+[10.814047] (-) TimerEvent: {}
+[10.916480] (-) TimerEvent: {}
+[11.016863] (-) TimerEvent: {}
+[11.117229] (-) TimerEvent: {}
+[11.217827] (-) TimerEvent: {}
+[11.319827] (-) TimerEvent: {}
+[11.420395] (-) TimerEvent: {}
+[11.520972] (-) TimerEvent: {}
+[11.621505] (-) TimerEvent: {}
+[11.722144] (-) TimerEvent: {}
+[11.823326] (-) TimerEvent: {}
+[11.923733] (-) TimerEvent: {}
+[12.024162] (-) TimerEvent: {}
+[12.124825] (-) TimerEvent: {}
+[12.225330] (-) TimerEvent: {}
+[12.325719] (-) TimerEvent: {}
+[12.426828] (-) TimerEvent: {}
+[12.527216] (-) TimerEvent: {}
+[12.627639] (-) TimerEvent: {}
+[12.728657] (-) TimerEvent: {}
+[12.777516] (controller_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable traj_publisher\x1b[0m\n'}
+[12.828797] (-) TimerEvent: {}
+[12.929206] (-) TimerEvent: {}
+[13.029639] (-) TimerEvent: {}
+[13.130710] (-) TimerEvent: {}
+[13.231825] (-) TimerEvent: {}
+[13.332242] (-) TimerEvent: {}
+[13.422651] (controller_pkg) StdoutLine: {'line': b'[100%] Built target traj_publisher\n'}
+[13.434829] (-) TimerEvent: {}
+[13.535212] (-) TimerEvent: {}
+[13.636124] (-) TimerEvent: {}
+[13.738829] (-) TimerEvent: {}
+[13.824433] (controller_pkg) CommandEnded: {'returncode': 0}
+[13.825953] (controller_pkg) JobProgress: {'identifier': 'controller_pkg', 'progress': 'install'}
+[13.840460] (-) TimerEvent: {}
+[13.848339] (controller_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg'], 'cwd': '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg', 'env': OrderedDict([('HOSTNAME', 'aimane'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs/lib:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/humble_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/tmp/.ros'), ('COLCON_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install:/home/aimane/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/install/two_drones_pkg:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/controller_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge/lib/python3.10/site-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs/local/lib/python3.10/dist-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse/lib/python3.10/site-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_comm:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_system_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_state_machine_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/mav_planning_msgs:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg:/home/aimane/humble_ws/install/two_drones_pkg:/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/tesse_ros_bridge:/opt/ros/humble')]), 'shell': False}
+[13.897804] (controller_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.898110] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/controller_node\n'}
+[13.898293] (controller_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/traj_publisher\n'}
+[13.900744] (controller_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/lib/controller_pkg/traj_publisher" to ""\n'}
+[13.901015] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/launch\n'}
+[13.901250] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/launch/traj_tracking.launch.py\n'}
+[13.901412] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/config\n'}
+[13.901646] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/config/params.yaml\n'}
+[13.901824] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/ament_index/resource_index/package_run_dependencies/controller_pkg\n'}
+[13.901986] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/ament_index/resource_index/parent_prefix_path/controller_pkg\n'}
+[13.902205] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/ament_prefix_path.sh\n'}
+[13.902421] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/ament_prefix_path.dsv\n'}
+[13.902573] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/path.sh\n'}
+[13.905861] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/environment/path.dsv\n'}
+[13.906060] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.bash\n'}
+[13.906218] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.sh\n'}
+[13.906367] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.zsh\n'}
+[13.906514] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/local_setup.dsv\n'}
+[13.906661] (controller_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.dsv\n'}
+[13.908598] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/ament_index/resource_index/packages/controller_pkg\n'}
+[13.908954] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/cmake/controller_pkgConfig.cmake\n'}
+[13.909139] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/cmake/controller_pkgConfig-version.cmake\n'}
+[13.909323] (controller_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/humble_ws/src/VNAV_23/vnav_ws/install/controller_pkg/share/controller_pkg/package.xml\n'}
+[13.911239] (controller_pkg) CommandEnded: {'returncode': 0}
+[13.952425] (-) TimerEvent: {}
+[13.972491] (controller_pkg) JobEnded: {'identifier': 'controller_pkg', 'rc': 0}
+[13.976433] (-) EventReactorShutdown: {}

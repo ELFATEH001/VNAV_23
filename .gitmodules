@@ -1,0 +1,3 @@
+[submodule "vnav_ws/src/lab3"]
+	path = vnav_ws/src/lab3
+	url = https://github.com/ELFATEH001/vnav_Lab3.git

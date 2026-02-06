@@ -1,0 +1,8 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::controlLoop()[m[K’:
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:359:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+  359 |                           [01;31m[Ka[m[K,              -a,              -a,              a,
+      |                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

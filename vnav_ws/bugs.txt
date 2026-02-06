@@ -1,0 +1,2 @@
+lsof -i -P -n
+kill -9 <PID>

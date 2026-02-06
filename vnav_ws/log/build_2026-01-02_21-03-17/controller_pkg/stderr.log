@@ -1,0 +1,4 @@
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::controlLoop()[m[K’:
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/controller_node.cpp:345:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle45[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  345 |     double [01;35m[Kangle45[m[K = PI / 4.0;
+      |            [01;35m[K^~~~~~~[m[K

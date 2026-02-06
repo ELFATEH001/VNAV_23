@@ -1,0 +1,13 @@
+{
+  "package_name": "mav_msgs",
+  "non_idl_tuples": [
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/Actuators.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/AttitudeThrust.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/FilteredSensorData.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/GpsWaypoint.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/RateThrust.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/RollPitchYawrateThrust.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/Status.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_msgs:msg/TorqueThrust.msg"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package_name": "tesse_msgs",
+  "non_idl_tuples": [
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse_msgs:msg/CollisionStats.msg",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse_msgs:srv/ObjectSpawnRequestService.srv",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse_msgs:srv/RepositionRequestService.srv",
+    "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/tesse_msgs:srv/SceneRequestService.srv"
+  ]
+}

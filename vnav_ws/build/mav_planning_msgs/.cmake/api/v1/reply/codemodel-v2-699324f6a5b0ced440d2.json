@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6953c3cadd3040b24290.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mav_planning_msgs__py",
+					"jsonFile" : "directory-mav_planning_msgs__py-3815e53237d769fe67b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_planning_msgs/mav_planning_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mav_planning_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mav_planning_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mav_planning_msgs_egg-907a7ec7a2d29971631c.json",
+					"name" : "ament_cmake_python_build_mav_planning_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mav_planning_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mav_planning_msgs-b4274f963e1f2e583dc3.json",
+					"name" : "ament_cmake_python_copy_mav_planning_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs-fdb7817fc4cf36040dd8.json",
+					"name" : "mav_planning_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__cpp-b2a48b8a77881c840b93.json",
+					"name" : "mav_planning_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mav_planning_msgs__py::@8d3737f69a54c7996247",
+					"jsonFile" : "target-mav_planning_msgs__py-5198b9e109fe8f834be8.json",
+					"name" : "mav_planning_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_generator_c-989aa73fd5daf1a67faf.json",
+					"name" : "mav_planning_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_generator_py-13efc71b6cf72faa5f65.json",
+					"name" : "mav_planning_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_c-beb8f69a0fd65437d73e.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_c__pyext-f44c7f11171cde3b7b1b.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_cpp-acb22fa177dacd12f518.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_fastrtps_c-723384d05e4fda3d2520.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_fastrtps_c__pyext-ca6ac4b9893ca76c49f0.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_fastrtps_cpp-4e5b65da1310d746ceaf.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_introspection_c-259e44a4d9c30f87aa59.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_introspection_c__pyext-91b4d51074ee3f047200.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs__rosidl_typesupport_introspection_cpp-85ecfe45daba53e9c2c1.json",
+					"name" : "mav_planning_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mav_planning_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mav_planning_msgs_uninstall-2161c2c221db637012fa.json",
+					"name" : "mav_planning_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-01fd362d32f034612fb8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/build/mav_planning_msgs",
+		"source" : "/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/mav_comm/mav_planning_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

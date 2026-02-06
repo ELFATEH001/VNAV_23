@@ -1,0 +1,4 @@
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/traj_publisher.cpp:[m[K In constructor ‘[01m[KTrajPublisherNode::TrajPublisherNode()[m[K’:
+[01m[K/home/aimane/humble_ws/src/VNAV_23/vnav_ws/src/Lab3/controller_pkg/src/traj_publisher.cpp:37:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   37 |             double [01;35m[Kt[m[K = (clock->now() - start).seconds();
+      |                    [01;35m[K^[m[K
